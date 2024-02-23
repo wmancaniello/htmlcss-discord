@@ -7,9 +7,10 @@
 
 /* BODY */
 .container{
-    
 /* RAGGRUPPARE TUTTE LE RIPETIZIONI */
-    
+
+/* TESTO */
+font-family: sans-serif;
 }
 
 .adress{
@@ -47,17 +48,29 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 200px;
-    background-color: #00008B;
+    min-height: 610px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /* debug */
+    /* background-color: #00008B; */
 }
 
 .bg-pink{
-    background-color: #EE82EE;
-    
+    text-align: center;
+    height: 300px;
+    width: 700px;
+   
     /* debug */
-    height: 200px;
-    width: 35%;
-    margin: 30px;
+    /* background-color: #EE82EE; */
+     /* margin: 30px; */
+}
+
+.bg-pink > *{
+    color: white;
+    padding: 25px;
 }
 
 .bg-white{
@@ -204,7 +217,16 @@ a {
 
 .white-bt{
     padding: 5px 10px;
+    color: black;
     border: 1px solid white;
     border-radius: 20px;
     background-color: white;
+}
+
+.black-bt{
+    padding: 5px 10px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: black;
 }
