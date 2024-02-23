@@ -8,16 +8,12 @@
 /* BODY */
 .container{
     
-    /* RAGGRUPPARE TUTTE LE RIPETIZIONI */
+/* RAGGRUPPARE TUTTE LE RIPETIZIONI */
     
 }
 
-/* .block{
-    
-} */
-
 .adress{
-    background-color: #ADD8E6;
+    background-color: #255EE9;
     display: flex;
     justify-content: center;
 
@@ -26,12 +22,14 @@
 }
 
 .login-menu{
-    background-color: #DAA520;
     display: flex;
     width: 20%;
     margin-top: 10px;
     margin-bottom: 10px;
-    border: 2px dashed black;
+    
+    /* debug */
+    /* border: 2px dashed black; */
+    /* background-color: #DAA520; */
 }
 
 .center{
@@ -197,3 +195,16 @@
     margin: 20px;
 }
 
+/* UTILITY */
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.white-bt{
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white;
+}
