@@ -48,7 +48,7 @@ font-family: sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 610px;
+    min-height: 600px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -73,56 +73,90 @@ font-family: sans-serif;
     padding: 25px;
 }
 
+/* SEZIONE CANALI */
 .bg-white{
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 200px;
     background-color: white;
+    margin: 70px;
 }
 
-.bg-lightgray{
+.bg-lightpink{
+    width: 700px;
+    min-height: 300px;
+
+    /* debug */
+    /* background-color: #FFC0CB;  */
+}
+
+.bg-lightblue{
+    width: 400px;    
+    min-height: 444px;
+
+    /* debug */
+    /* background-color: #1E90FF;  */
+}
+
+.text1{
+    margin-top: 50px;
+}
+
+.text1 > p {
+    margin-top: 30px;
+    line-height: 20px;
+}
+
+/* SEZIONE CANALI VOCALI */
+.bg-lightgray {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 200px;
-    background-color: lightgray;
-}
-
-.bg-lightpink{
-    background-color: #FFC0CB;
-    
-    /* debug */
-    height: 300px;
-    width: 50%;
-    margin: 30px;
+    background-color: #F6F6F6;
+    margin: 70px 0;
 }
 
 .bg-lightpink2{
-    background-color: #FFC0CB;
-    
-    /* debug */
-    height: 300px;
-    width: 50%;
-    margin: 30px;
-}
-
-
-.bg-lightblue{
-    background-color: #1E90FF;
+    width: 400px;
+    min-height: 300px;
 
     /* debug */
-    height: 100%;
-    width: 65%;
+    /* background-color: #FFC0CB; */
 }
 
 .bg-lightblue2{
-    background-color: #1E90FF;
+    width: 700px;    
+    min-height: 444px;
+    background-image: url(../img/item2.svg);
 
     /* debug */
-    height: 100%;
-    width: 35%;
+    /* background-color: #1E90FF; */
 }
+
+/* SEZIONE MEMBRI PERSONALIZZABILE */
+
+.bg-lightblue3 {
+    min-width: 500px;    
+    min-height: 444px;
+    background-image: url(../img/item3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /* debug */
+    /* background-color: #1E90FF */
+}
+
+.bg-lightpink3 {
+    width: 700px;
+    min-height: 444px;
+
+    /* debug */
+    /* background-color: #FFC0CB; */
+}
+
 
 .bg-greensquare{
     display: flex;
