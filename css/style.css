@@ -191,24 +191,24 @@ font-family: sans-serif;
     align-items: center;
     justify-content: center;
     min-height: 500px;
-    background-color: black;
+    background-color: #23272A;
 }
 
 .bg-salmon-30{
     width: 30%;
 
     /* debug */
-    border: 1px solid white;
+    /* border: 1px solid white; */
     min-height: 300px;
-    background-color: #F08080;
+    /* background-color: #F08080; */
 }
 
 .bg-turq-70{
     width: 30%;
     display: flex;
     /* debug */
-    border: 1px solid white;
-    background-color: #20B2AA;
+    /* border: 1px solid white; */
+    /* background-color: #20B2AA; */
     min-height: 200px;
 }
 
@@ -216,38 +216,45 @@ font-family: sans-serif;
     width: 25%;
 
     /* debug */
-    border: 1px solid white;
-    background-color: red;
+    /* border: 1px solid white; */
+    /* background-color: red; */
     min-height: 300px;
+}
+
+.icons {
+    color: white;
+    padding-top: 10px;
 }
 
 /* FOOTER */
 
 .container-black{
-    background-color: black;
-    margin-top: 5px;
-
+    background-color: #23272A;
     display: flex;
     justify-content: center;
 
     /* debug */
     height: 100px;
+    margin-top: 1px;
 }
 
 .container-turq{
     display: flex;
     justify-content: space-between;
 
-    background-color: #7FFFD4;
+    /* debug */
+    /* background-color: #7FFFD4; */
     width: 50%;
     margin-top: 15px;
 }
 
 .click {
-    background-color: pink;
-    border: 2px solid black;
     height: fit-content;
     margin: 20px;
+
+    /* debug */
+    /* background-color: pink;
+    border: 2px solid black; */
 }
 
 /* UTILITY */
@@ -280,4 +287,28 @@ a {
     border: 1px solid #7289DA;
     border-radius: 20px;
     background-color: #7289DA;
+}
+
+.purple-bt-end{
+    padding: 5px 10px;
+    color: white;
+    border: 1px solid #7289DA;
+    border-radius: 20px;
+    background-color: #7289DA;
+}
+
+.violet {
+    color: #7289DA;
+}
+
+.space {
+    word-spacing: 10px;
+}
+
+
+ul > li{
+    color: white;
+    font-size: 10px;
+    margin-top: 10px;
+    list-style-type: none;
 }
